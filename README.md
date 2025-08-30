@@ -21,6 +21,7 @@ A custom feature (`contains_link`) is also added to help identify reviews contai
 ├── README.md
 ├── data/
 │   └── reviews_labeled.csv   # Generated dataset for training/testing
+|   └── Alaska.json           # Dataset for evaluation
 ├── main.ipynb                # Notebook to train, evaluate, and test the model
 ├── reviews_generator.py      # Script to generate labeled review data
 ```
