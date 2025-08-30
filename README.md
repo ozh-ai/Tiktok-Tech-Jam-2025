@@ -50,7 +50,7 @@ This will generate `60000_reviews.csv` in the `data/` folder.
 
 ## How to Reproduce Results
 
-1. Open the notebook:
+1. Open the notebook (Use Jupyter Notebook / Google Colab):
 
 ```bash
 jupyter notebook main.ipynb
