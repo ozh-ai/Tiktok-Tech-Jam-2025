@@ -36,24 +36,15 @@ git clone <repository_url>
 cd <repository_folder>
 ```
 
-2. **Install required dependencies**:
+2. **Generate the test dataset**:
 
-```bash
-pip install -r requirements.txt
-```
-
-> Ensure you have Python 3.8+ installed.
-> `requirements.txt` should include packages like `pandas`, `scikit-learn`, `xgboost`, `numpy`, etc.
-
-3. **Generate the labeled reviews CSV**:
-
-Run the `reviews_generator.py` script to create the dataset:
+Run the `reviews_generator.py` script to create the dataset used to test the machine learning model:
 
 ```bash
 python reviews_generator.py
 ```
 
-This will generate `reviews_labeled.csv` in the `data/` folder.
+This will generate `60000_reviews.csv` in the `data/` folder.
 
 ---
 
@@ -73,7 +64,7 @@ jupyter notebook main.ipynb
    * Evaluate performance using classification metrics (precision, recall, F1-score, confusion matrix)
    * Test on sample or external datasets
 
-3. You can also add or test **new reviews** by creating a DataFrame with `review_text` and `text_length` and passing it through the trained pipeline.
+3. You can also add or test **new reviews** by creating a DataFrame with `text` and `text_length` and passing it through the trained pipeline.
 
 ---
 
