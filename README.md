@@ -1,8 +1,6 @@
 # Tiktok-Tech-Jam-2025
 Track #1: Filtering the Noise: ML for trustworthy location reviews
 
-# Review Quality and Relevancy Detection
-
 ## Project Overview
 
 This project aims to automatically assess the **quality and relevancy of Google location reviews** using a combination of **Machine Learning (XGBoost)** and **Natural Language Processing (TF-IDF features)**.
